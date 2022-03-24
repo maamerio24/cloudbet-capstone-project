@@ -1,13 +1,194 @@
-body {
+* {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5ab129d155b02ce837ef3a82/1608123368412-EH4LPT3298QHXBHQZ1NL/stadium.png?format=2500w');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font-family-sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+#first {
+  padding-left: 70px;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+#second {
+  padding-right: 70px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+#intro {
+  color: white;
+  left: 0;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+
+}
+
+.list {
+  font-family: font-family-sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+select {
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+  background: rgb(255, 255, 255);
+  border: solid 2px;
+  border-color: black;
+}
+
+label {
+  display: block;
+  font-size: 37px;
+  font-weight: bold;
+
+}
+
+.leagues {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+
+
+.competition-title {
+  padding: 10px;
+  background-color: #abc;
+  margin: 10px 0px;
+  border: solid 2px #789;
+
+}
+
+.competition-title:hover {
+  background-color: #bcd;
+  cursor: pointer;
+}
+
+.event-title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.selections {
+  display: flex;
+}
+
+.selection {
+  padding: 10px;
+  flex: 1;
+  border: solid 1px lightgray;
+  margin: 10px, 0px;
+  font-size: 17px;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.group {
+  border: solid 1px lightgray;
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+button {
+  background-image: none;
+  background-color: #df4930;
+  border: none;
+  border: #df4930;
+  color: white;
+  padding: 10px;
+  width: 22%;
+  border-radius: 6px;
+  font-size: 24px;
+}
+
+.contact {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-section {
+  padding-top: 4rem;
+  color: white;
+}
+
+.card {
+  border: 0;
+  border: 0.25rem solid white;
+  color: white;
+
+}
+
+h4 {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: white;
+}
+
+hr {
+  border-color: white;
+  border-width: 0.25rem;
+  width: 3rem;
+  color: white;
+}
+
+#icons {
+  margin-top: 4rem;
+  max-width: auto;
+}
+
+.one {
+  margin-right: 10px;
+}
+
+.two{
+  margin-right: 10px;
 }
