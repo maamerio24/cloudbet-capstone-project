@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, Link, Navigate } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 import { Home } from './views/Home'
 import { useAuth } from './contexts/AuthProvider'
 import { Main } from './views/Main'
@@ -8,7 +8,7 @@ import { Contact } from './views/Contact'
 
 export const App = () => {
 
-  const { signInWithGoogle, signInWithGithub, currentUser, logOut } = useAuth()
+  const { signInWithGoogle, currentUser, logOut } = useAuth()
 
 
   return (
